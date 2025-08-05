@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">リキッドグラスカレンダー</string>
+    <string name="hello_world">こんにちは世界！</string>
+    <string name="today">今日</string>
+    <string name="add_event">イベントを追加</string>
+    <string name="event_title">イベントタイトル</string>
+    <string name="event_description">イベントの説明</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+</resources>
+

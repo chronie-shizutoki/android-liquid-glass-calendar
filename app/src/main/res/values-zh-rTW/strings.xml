@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">液體玻璃日曆</string>
+    <string name="hello_world">你好世界！</string>
+    <string name="today">今天</string>
+    <string name="add_event">新增事件</string>
+    <string name="event_title">事件標題</string>
+    <string name="event_description">事件描述</string>
+    <string name="save">儲存</string>
+    <string name="cancel">取消</string>
+</resources>
+

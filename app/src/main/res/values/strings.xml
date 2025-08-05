@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Liquid Glass Calendar</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="today">Today</string>
+    <string name="add_event">Add Event</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
+
