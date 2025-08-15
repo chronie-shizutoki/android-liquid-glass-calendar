@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/liquid_glass_primary</item>
+        <item name="colorPrimaryVariant">@color/liquid_glass_secondary</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/liquid_glass_accent</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/card_glass_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:navigationBarColor">@color/status_bar_color</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Liquid Glass Card Style -->
+    <style name="LiquidGlassCard">
+        <item name="android:background">@drawable/glass_card_background</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- Calendar Theme -->
+    <style name="CalendarTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorAccent">@color/calendar_today</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <!-- Glass Button Style -->
+    <style name="GlassButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/glass_button_background</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Glass Text Style -->
+    <style name="GlassText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="GlassText.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GlassText.Subtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="GlassText.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>
+

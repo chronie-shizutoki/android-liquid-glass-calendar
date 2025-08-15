@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Liquid Glass Primary Colors -->
+    <color name="liquid_glass_primary">#4A90E280</color>
+    <color name="liquid_glass_secondary">#7B68EE60</color>
+    <color name="liquid_glass_accent">#FF6B6B80</color>
+    
+    <!-- Glass Layers -->
+    <color name="glass_layer_light">#FFFFFF20</color>
+    <color name="glass_layer_medium">#FFFFFF40</color>
+    <color name="glass_layer_dark">#00000020</color>
+    
+    <!-- Dynamic Background -->
+    <color name="background_gradient_start">#667eea</color>
+    <color name="background_gradient_middle">#764ba2</color>
+    <color name="background_gradient_end">#f093fb</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#FFFFFFCC</color>
+    <color name="text_hint">#FFFFFF80</color>
+    
+    <!-- Card Colors -->
+    <color name="card_glass_background">#FFFFFF15</color>
+    <color name="card_glass_border">#FFFFFF30</color>
+    
+    <!-- Button Colors -->
+    <color name="button_glass_normal">#FFFFFF25</color>
+    <color name="button_glass_pressed">#FFFFFF40</color>
+    
+    <!-- Calendar Colors -->
+    <color name="calendar_today">#4A90E2FF</color>
+    <color name="calendar_selected">#7B68EEFF</color>
+    <color name="calendar_event">#FF6B6BFF</color>
+    
+    <!-- Status Bar -->
+    <color name="status_bar_color">#00000000</color>
+    
+    <!-- Legacy Colors for Compatibility -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,16 +44,5 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    
-    <!-- Liquid Glass Theme Colors -->
-    <color name="glass_background">#80FFFFFF</color>
-    <color name="glass_background_dark">#80000000</color>
-    <color name="glass_primary">#FF4A90E2</color>
-    <color name="glass_secondary">#FF7B68EE</color>
-    <color name="glass_accent">#FFFF6B6B</color>
-    <color name="glass_surface">#F0FFFFFF</color>
-    <color name="glass_surface_dark">#F0121212</color>
-    <color name="glass_on_surface">#FF212121</color>
-    <color name="glass_on_surface_dark">#FFFFFFFF</color>
 </resources>
 
