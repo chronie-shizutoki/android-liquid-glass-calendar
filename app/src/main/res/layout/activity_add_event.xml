@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/liquid_glass_background"
     tools:context=".AddEventActivity">
 
     <LinearLayout
@@ -30,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/event_title"
-                    android:textColor="@color/glass_on_surface"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -40,10 +40,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/glass_button_background"
-                    android:hint="Enter event title"
+                    android:hint="@string/enter_event_title"
                     android:padding="12dp"
-                    android:textColor="@color/glass_on_surface"
-                    android:textColorHint="#80212121" />
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_hint" />
 
             </LinearLayout>
 
@@ -66,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/event_description"
-                    android:textColor="@color/glass_on_surface"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -77,11 +77,11 @@
                     android:layout_marginTop="8dp"
                     android:background="@drawable/glass_button_background"
                     android:gravity="top"
-                    android:hint="Enter event description"
+                    android:hint="@string/enter_event_description"
                     android:inputType="textMultiLine"
                     android:padding="12dp"
-                    android:textColor="@color/glass_on_surface"
-                    android:textColorHint="#80212121" />
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_hint" />
 
             </LinearLayout>
 
@@ -103,8 +103,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Start Time"
-                    android:textColor="@color/glass_on_surface"
+                    android:text="@string/start_time"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -116,7 +116,7 @@
 
                     <Button
                         android:id="@+id/startDateButton"
-                        style="@style/LiquidGlassButton"
+                        style="@style/GlassButton"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -125,7 +125,7 @@
 
                     <Button
                         android:id="@+id/startTimeButton"
-                        style="@style/LiquidGlassButton"
+                        style="@style/GlassButton"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -154,8 +154,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="End Time"
-                    android:textColor="@color/glass_on_surface"
+                    android:text="@string/end_time"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -167,7 +167,7 @@
 
                     <Button
                         android:id="@+id/endDateButton"
-                        style="@style/LiquidGlassButton"
+                        style="@style/GlassButton"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -176,7 +176,7 @@
 
                     <Button
                         android:id="@+id/endTimeButton"
-                        style="@style/LiquidGlassButton"
+                        style="@style/GlassButton"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -197,7 +197,7 @@
 
             <Button
                 android:id="@+id/cancelButton"
-                style="@style/LiquidGlassButton"
+                style="@style/GlassButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
@@ -206,14 +206,14 @@
 
             <Button
                 android:id="@+id/saveButton"
-                style="@style/LiquidGlassButton"
+                style="@style/GlassButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/glass_primary"
+                android:backgroundTint="@color/liquid_glass_primary"
                 android:text="@string/save"
-                android:textColor="@color/white" />
+                android:textColor="@color/text_primary" />
 
         </LinearLayout>
 

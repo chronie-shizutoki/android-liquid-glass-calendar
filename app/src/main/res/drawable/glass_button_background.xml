@@ -22,7 +22,7 @@
             </item>
             
             <!-- Top highlight -->
-            <item android:top="0dp" android:bottom="70%">
+            <item>
                 <shape android:shape="rectangle">
                     <gradient
                         android:type="linear"
@@ -57,7 +57,7 @@
             </item>
             
             <!-- Top highlight -->
-            <item android:top="0dp" android:bottom="70%">
+            <item>
                 <shape android:shape="rectangle">
                     <gradient
                         android:type="linear"
