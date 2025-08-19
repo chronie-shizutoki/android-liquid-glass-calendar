@@ -158,24 +158,30 @@ public class MainActivity extends AppCompatActivity {
         
         // 今天的事件
         eventManager.addEvent(new CalendarEvent(
+            java.util.UUID.randomUUID().toString(),
             "Team Meeting",
             "Weekly team sync meeting",
             today.getTime(),
-            addHours(today.getTime(), 1)
+            addHours(today.getTime(), 1),
+            "#FF6B6B"
         ));
         
         eventManager.addEvent(new CalendarEvent(
+            java.util.UUID.randomUUID().toString(),
             "Lunch Break",
             "Lunch with colleagues",
             addHours(today.getTime(), 4),
-            addHours(today.getTime(), 5)
+            addHours(today.getTime(), 5),
+            "#4A90E2"
         ));
         
         eventManager.addEvent(new CalendarEvent(
+            java.util.UUID.randomUUID().toString(),
             "Project Review",
             "Review project progress",
             addHours(today.getTime(), 7),
-            addHours(today.getTime(), 8)
+            addHours(today.getTime(), 8),
+            "#7B68EE"
         ));
     }
     
