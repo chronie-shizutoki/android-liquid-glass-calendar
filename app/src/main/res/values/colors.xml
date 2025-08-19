@@ -1,42 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Liquid Glass Primary Colors -->
-    <color name="liquid_glass_primary">#4A90E280</color>
-    <color name="liquid_glass_secondary">#7B68EE60</color>
-    <color name="liquid_glass_accent">#FF6B6B80</color>
+    <!-- Liquid Glass 主色调 -->
+    <color name="liquid_glass_primary">#007AFF</color>
+    <color name="liquid_glass_secondary">#5856D6</color>
+    <color name="liquid_glass_accent">#FF3B30</color>
     
-    <!-- Glass Layers -->
-    <color name="glass_layer_light">#FFFFFF20</color>
-    <color name="glass_layer_medium">#FFFFFF40</color>
-    <color name="glass_layer_dark">#00000020</color>
+    <!-- 表面颜色 - 浅色模式 -->
+    <color name="surface_light">#F2F2F7</color>
+    <color name="surface_variant_light">#FFFFFF</color>
+    <color name="on_surface_light">#000000</color>
+    <color name="on_surface_variant_light">#3C3C43</color>
     
-    <!-- Dynamic Background -->
+    <!-- 表面颜色 - 深色模式 -->
+    <color name="surface_dark">#000000</color>
+    <color name="surface_variant_dark">#1C1C1E</color>
+    <color name="on_surface_dark">#FFFFFF</color>
+    <color name="on_surface_variant_dark">#EBEBF5</color>
+    
+    <!-- 玻璃效果颜色 -->
+    <color name="glass_overlay_light">#30FFFFFF</color>
+    <color name="glass_overlay_medium">#50FFFFFF</color>
+    <color name="glass_overlay_strong">#70FFFFFF</color>
+    <color name="glass_border_light">#40FFFFFF</color>
+    
+    <color name="glass_overlay_dark">#30000000</color>
+    <color name="glass_border_dark">#40FFFFFF</color>
+    
+    <!-- 动态背景渐变 -->
     <color name="background_gradient_start">#667eea</color>
     <color name="background_gradient_middle">#764ba2</color>
     <color name="background_gradient_end">#f093fb</color>
     
-    <!-- Text Colors -->
-    <color name="text_primary">#FFFFFF</color>
-    <color name="text_secondary">#FFFFFFCC</color>
-    <color name="text_hint">#FFFFFF80</color>
+    <!-- 文字颜色 - 高对比度 -->
+    <color name="text_primary_light">#000000</color>
+    <color name="text_secondary_light">#3C3C43</color>
+    <color name="text_tertiary_light">#8E8E93</color>
     
-    <!-- Card Colors -->
-    <color name="card_glass_background">#FFFFFF15</color>
-    <color name="card_glass_border">#FFFFFF30</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#EBEBF5</color>
+    <color name="text_tertiary_dark">#8E8E93</color>
     
-    <!-- Button Colors -->
-    <color name="button_glass_normal">#FFFFFF25</color>
-    <color name="button_glass_pressed">#FFFFFF40</color>
+    <!-- 卡片和按钮颜色 -->
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#1C1C1E</color>
     
-    <!-- Calendar Colors -->
-    <color name="calendar_today">#4A90E2FF</color>
-    <color name="calendar_selected">#7B68EEFF</color>
-    <color name="calendar_event">#FF6B6BFF</color>
+    <color name="button_background_light">#F2F2F7</color>
+    <color name="button_background_dark">#2C2C2E</color>
     
-    <!-- Status Bar -->
-    <color name="status_bar_color">#00000000</color>
+    <!-- 日历特定颜色 -->
+    <color name="calendar_today">#007AFF</color>
+    <color name="calendar_selected">#5856D6</color>
+    <color name="calendar_event">#FF3B30</color>
     
-    <!-- Legacy Colors for Compatibility -->
+    <!-- 系统颜色兼容 -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

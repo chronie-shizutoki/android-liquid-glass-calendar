@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Liquid Glass 主色调 - 深色模式调整 -->
+    <color name="liquid_glass_primary">#0A84FF</color>
+    <color name="liquid_glass_secondary">#5E5CE6</color>
+    <color name="liquid_glass_accent">#FF453A</color>
+    
+    <!-- 表面颜色 - 深色模式 -->
+    <color name="surface_light">@color/surface_dark</color>
+    <color name="surface_variant_light">@color/surface_variant_dark</color>
+    <color name="on_surface_light">@color/on_surface_dark</color>
+    <color name="on_surface_variant_light">@color/on_surface_variant_dark</color>
+    
+    <!-- 玻璃效果颜色 - 深色模式 -->
+    <color name="glass_overlay_light">#20FFFFFF</color>
+    <color name="glass_overlay_medium">#40FFFFFF</color>
+    <color name="glass_overlay_strong">#60FFFFFF</color>
+    <color name="glass_border_light">#30FFFFFF</color>
+    
+    <!-- 动态背景渐变 - 深色版本 -->
+    <color name="background_gradient_start">#1a1a2e</color>
+    <color name="background_gradient_middle">#16213e</color>
+    <color name="background_gradient_end">#0f3460</color>
+    
+    <!-- 文字颜色 - 深色模式 -->
+    <color name="text_primary_light">@color/text_primary_dark</color>
+    <color name="text_secondary_light">@color/text_secondary_dark</color>
+    <color name="text_tertiary_light">@color/text_tertiary_dark</color>
+    
+    <!-- 卡片和按钮颜色 - 深色模式 -->
+    <color name="card_background_light">@color/card_background_dark</color>
+    <color name="button_background_light">@color/button_background_dark</color>
+    
+    <!-- 日历特定颜色 - 深色模式调整 -->
+    <color name="calendar_today">#0A84FF</color>
+    <color name="calendar_selected">#5E5CE6</color>
+    <color name="calendar_event">#FF453A</color>
+</resources>
+

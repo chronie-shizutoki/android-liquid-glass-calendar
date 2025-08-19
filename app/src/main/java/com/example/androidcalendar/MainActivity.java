@@ -160,6 +160,10 @@ public class MainActivity extends AppCompatActivity {
         eventManager.addEvent(new CalendarEvent(
             java.util.UUID.randomUUID().toString(),
             "Team Meeting",
+            "Weekly team sync        // 今天的事件
+        eventManager.addEvent(new CalendarEvent(
+            java.util.UUID.randomUUID().toString(),
+            "Team Meeting",
             "Weekly team sync meeting",
             today.getTime(),
             addHours(today.getTime(), 1),
@@ -181,6 +185,8 @@ public class MainActivity extends AppCompatActivity {
             "Review project progress",
             addHours(today.getTime(), 7),
             addHours(today.getTime(), 8),
+            "#7B68EE"
+        ));y.getTime(), 8),
             "#7B68EE"
         ));
     }

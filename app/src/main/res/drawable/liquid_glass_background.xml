@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <gradient
-        android:type="linear"
-        android:angle="135"
-        android:startColor="@color/background_gradient_start"
-        android:centerColor="@color/background_gradient_middle"
-        android:endColor="@color/background_gradient_end" />
-</shape>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 基础渐变背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="@color/background_gradient_start"
+                android:centerColor="@color/background_gradient_middle"
+                android:endColor="@color/background_gradient_end" />
+        </shape>
+    </item>
+    
+    <!-- 第一层玻璃效果 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="0.3"
+                android:centerY="0.2"
+                android:gradientRadius="800dp"
+                android:startColor="@color/glass_overlay_light"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+    
+    <!-- 第二层玻璃效果 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="0.7"
+                android:centerY="0.8"
+                android:gradientRadius="600dp"
+                android:startColor="@color/glass_overlay_medium"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+    
+    <!-- 顶部高光 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="@color/glass_overlay_light"
+                android:centerColor="#10FFFFFF"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+</layer-list>
 
